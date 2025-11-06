@@ -22,7 +22,7 @@
 
 // "car" → false
 
-
+//o(n)
 const isPalindrome=(str)=>{
     const normalized=str.toLowerCase().replace(/[^a-z0-9]/g,"");
 const reversed=normalized.split("").reverse().join("");
@@ -36,6 +36,8 @@ return false
 
     // console.log(isPalindrome("Level"));
 
+
+//o(n)
 
     const isPalindromeTwoPointer=(str)=>{
       
